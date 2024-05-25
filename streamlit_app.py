@@ -1,6 +1,12 @@
 import pandas as pd
 from google.cloud import bigquery
 
+import subprocess
+
+# Installation du package google-cloud-bigquery
+subprocess.run(["pip", "install", "google-cloud-bigquery"])
+
+
 # Configurer le client BigQuery avec les informations d'identification par défaut de l'environnement
 client = bigquery.Client()
 
