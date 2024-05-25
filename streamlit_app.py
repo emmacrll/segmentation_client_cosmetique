@@ -1,7 +1,5 @@
 import pandas as pd
 from google.cloud import bigquery
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Configurer le client BigQuery avec les informations d'identification par défaut de l'environnement
 client = bigquery.Client()
